@@ -80,8 +80,7 @@ class Deliver_Http {
     Deliver_item? item;
     //date_time url에 추가
     var res = await http.get(
-        Uri.parse(
-            "http://ec2-43-200-33-232.ap-northeast-2.compute.amazonaws.com:8080/api/order/${id}"),
+        Uri.parse(),
         headers: {
           'Content-Type': 'application/json',
           'Accept': 'application/json',

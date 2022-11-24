@@ -106,12 +106,9 @@ class _Login_Oauth_Screen extends State<Login_Oauth_Screen> {
                     onTap: () async {
                       if (check == null) {
                         print("kakao oauth");
-                        const String _REST_API_KEY =
-                            "ee4ee61f1ea69f5a8d5f5924343083f7";
+                        const String _REST_API_KEY = ;
 
-                        const String _REDIRECT =
-                            "http://ec2-43-200-33-232.ap-northeast-2.compute.amazonaws.com:8080/api/oauth2/code/kakao";
-
+                        const String _REDIRECT =;
                         final _host = "https://kauth.kakao.com";
 
                         final _url =
