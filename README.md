@@ -1,6 +1,11 @@
 # gilog
-
-A new Flutter project.
+서버 - aws ec2, Os: Amazon Linux 2 AMI
+DB서버 - aws rds, mysql 8.0.28
+웹 애플리케이션   
+1) 프레임워크: Spring boot
+2) API서버 - 모듈명: gilog-api-server, 포트: 8080
+3) CMS서버 - 모듈명: gilog-batch-server, 포트: 8081
+4) 프론트 프레임워크: 부트스트랩
 
 ## Getting Started
 
